@@ -11,15 +11,15 @@ This project tackles that challenge by building an intelligent **machine learnin
 
 ## 🎯 **Live Demo**
 👉 [**Launch Streamlit App**](#)  
-*(Insert your deployed Streamlit link here)*  
+*(https://futureml02-ywxtwftgrdivqguw3uuxfr.streamlit.app/)*  
 
 ---
 
 ## 🖼️ **Screenshots**
 
-| Streamlit App | EDA Visualization |
+|  EDA Visualization |
 | :------------: | :---------------: |
-| ![App Screenshot](path_to_app_screenshot.png) | ![EDA Screenshot](path_to_eda_screenshot.png) |
+| ![ Correlation map]("C:\Users\bezis\OneDrive\Pictures\Screenshots\Screenshot 2025-10-24 095351.png") | ![EDA Screenshot]("C:\Users\bezis\OneDrive\Pictures\Screenshots\Screenshot 2025-10-24 095520.png") |
 
 ## 🧩 **Overview**
 This project predicts **customer churn** for a telecom company using machine learning.  
