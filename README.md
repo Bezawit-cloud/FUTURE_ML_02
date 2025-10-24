@@ -1,4 +1,4 @@
-# 📞 Telecom Churn Predictor 🚀  
+# 📞 Telecom Churn Predictor  📞 
 ### ⚡ **Keeping customers is more valuable than acquiring new ones.**
 
 In the telecom industry, companies spend millions acquiring customers — but many still leave for competitors.  
@@ -14,14 +14,7 @@ This project tackles that challenge by building an intelligent **machine learnin
 *(https://futureml02-ywxtwftgrdivqguw3uuxfr.streamlit.app/)*  
 
 ---
-
-## 🖼️ **Screenshots**
-
-|  EDA Visualization |
-| :------------: | :---------------: |
-| ![ Correlation map]("C:\Users\bezis\OneDrive\Pictures\Screenshots\Screenshot 2025-10-24 095351.png") | ![EDA Screenshot]("C:\Users\bezis\OneDrive\Pictures\Screenshots\Screenshot 2025-10-24 095520.png") |
-
-## 🧩 **Overview**
+##  **Overview**
 This project predicts **customer churn** for a telecom company using machine learning.  
 The workflow includes:
 - Data preprocessing  
@@ -30,33 +23,33 @@ The workflow includes:
 - Comparing multiple ML models (Random Forest vs XGBoost)  
 - Selecting the best model for deployment via **Streamlit**
 
-## ⚙️ **Workflow & Methodology**
+##  **Workflow & Methodology**
 
-### 🧹 Data Cleaning & Preprocessing
+###  Data Cleaning & Preprocessing
 - Removed unnecessary columns  
 - Converted `TotalCharges` to float  
 - Filled missing values  
 - Encoded categorical columns using LabelEncoder  
 
-### 🔍 Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 - Correlation heatmap for relationships  
 - Boxplots to detect outliers  
 - Visualized service usage vs churn  
 - Distribution analysis of tenure, contracts, and payment methods  
 
-### ⚖️ Handling Class Imbalance
+###  Handling Class Imbalance
 - Detected imbalance in `Churn` column  
 - Applied **SMOTE (Synthetic Minority Oversampling Technique)**  
 - Balanced dataset improved recall for minority class  
 
-### 🤖 Model Building & Comparison
+###  Model Building & Comparison
 - Trained and compared **Random Forest** and **XGBoost** classifiers  
 - Used 80/20 train-test split  
 - Evaluated performance using **Accuracy**, **Precision**, **Recall**, and **F1-Score**
 
 ---
 
-## 📊 **Model Evaluation**
+##  **Model Evaluation**
 
 | Metric | Random Forest | XGBoost |
 |:--------|:--------------:|:-------:|
@@ -68,7 +61,7 @@ The workflow includes:
 - XGBoost performed best overall and was chosen for final deployment  
 - A **confusion matrix** and **classification report** supported this selection  
 
-## 🚀 **Model Deployment**
+##  **Model Deployment**
 
 After selecting the best-performing model (XGBoost):  
 1. The trained model and encoders were **saved using `pickle`**:  
